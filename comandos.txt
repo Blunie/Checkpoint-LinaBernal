@@ -1,0 +1,25 @@
+git init
+git remote add origin https://github.com/Blunie/Checkpoint-LinaBernal.git
+touch main.js index.html
+git add .
+git commit -m "Commit 01 de LinaBernal"
+git push origin main
+git branch feature
+git checkout feature
+mkdir Hardware Software SeguridadInformatica
+ls
+cd Hardware
+touch resumen.txt
+cd ..
+cd Software
+cd SeguridadInformatica
+git add .
+git status
+git commit -m "Commit 02 de LinaBernal"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+touch comandos.txt
+git add .
+git commit -m "Commit 03 de LinaBernal"
